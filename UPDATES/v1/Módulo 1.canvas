@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"468feaa3ef870226","type":"file","file":"UPDATES/v1/FILES/suricata-deployment v1.1.0.md","x":-3260,"y":-920,"width":400,"height":400},
+		{"id":"9b9e4e4d0cca06d1","type":"file","file":"UPDATES/v1/FILES/ubuntupod.yaml v1.0.0.md","x":-2280,"y":-920,"width":400,"height":400},
+		{"id":"3b7f638a55f99bf1","type":"file","file":"UPDATES/v1/FILES/suricata-service.yaml v1.0.0.md","x":-2760,"y":-920,"width":400,"height":400},
+		{"id":"7de650f1557038bb","type":"file","file":"z_Attachments/extra/Pasted image 20231006140915.png","x":-3260,"y":-280,"width":399,"height":129},
+		{"id":"18b34e8f724d68ce","type":"text","text":"```shell\nkubectl create -f suricata-deployment.yaml\n```","x":-3290,"y":-420,"width":460,"height":60},
+		{"id":"012bcf0e985e4425","x":-2980,"y":-1160,"width":730,"height":139,"color":"2","type":"text","text":"Podemos ver la documentación de este despliegue en:\n- [[UPDATES/v1/FILES/README|README]]"}
+	],
+	"edges":[
+		{"id":"e10b47502b7d70a7","fromNode":"468feaa3ef870226","fromSide":"bottom","toNode":"18b34e8f724d68ce","toSide":"top"},
+		{"id":"9a9eb4f42cd53cdc","fromNode":"18b34e8f724d68ce","fromSide":"bottom","toNode":"7de650f1557038bb","toSide":"top"}
+	]
+}

@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "30f57e8442308655",
+        "id": "864e59711dd02db1",
         "type": "tabs",
         "children": [
           {
-            "id": "54b35a367d078205",
+            "id": "3ac14f30b6315532",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Suricata Update.canvas",
-                "viewState": {
-                  "x": -1280,
-                  "y": -340,
-                  "zoom": 0
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Suricata.yaml v.1.0.0.md",
+                "file": "UPDATES/v2/Módulo 2.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Suricata.yaml v.1.0.0.md",
+                "file": "UPDATES/v2/Módulo 2.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Suricata.yaml v.1.0.0.md"
+                "file": "UPDATES/v2/Módulo 2.canvas"
               }
             }
           }
@@ -152,12 +145,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "54b35a367d078205",
+  "active": "4db18d3950760c99",
   "lastOpenFiles": [
-    "Suricata.yaml v.1.1.0.md",
+    "UPDATES/v2/FILES/README.md",
+    "UPDATES/v2/Módulo 2.canvas",
+    "UPDATES/v2/FILES/suricata.yaml v.1.0.0.md",
+    "UPDATES/v2/FILES/suricata.rules v.1.0.0.md",
+    "UPDATES/v2/FILES/suricata-suricata.yaml v1.0.0.md",
+    "UPDATES/v2/FILES/suricata-rules.yaml.md",
+    "UPDATES/v2/FILES/suricata-daemonset.yaml v.1.0.0.md",
+    "UPDATES/v2/FILES/ubuntupod.yaml v1.0.0.md",
+    "UPDATES/v2/FILES/suricata-service.yaml v1.0.0.md",
+    "UPDATES/v2/FILES/suricata-deployment v1.1.0.md",
+    "UPDATES/v1/Módulo 1.canvas",
+    "z_Attachments/images/self-features-interaction.png",
+    "z_Attachments/images/self-features-interaction.png.crdownload",
+    "z_Attachments/images",
+    "z_Attachments/Nueva carpeta",
+    "UPDATES/v1/FILES/README.md",
+    "UPDATES/v2/FILES/LICENCE.TXT.md",
+    "UPDATES/v2/FILES",
+    "Excalidraw/Drawing 2023-10-06 14.14.56.excalidraw.md",
+    "Excalidraw",
+    "UPDATES/v1/FILES/suricata-service.yaml v1.0.0.md",
+    "UPDATES/v1/FILES/suricata-deployment v1.1.0.md",
+    "UPDATES/v1/FILES/ubuntupod.yaml v1.0.0.md",
+    "UPDATES/v1/FILES/suricata.yaml v1.1.0.md",
+    "UPDATES/v1/FILES/ubuntupod.yaml.md",
+    "UPDATES/v2",
+    "z_Attachments/extra/Pasted image 20231006140915.png",
+    "z_Attachments/extra",
+    "z_Attachments",
+    "README.md",
     "Suricata Update.canvas",
-    "Suricata.yaml v.1.0.0.md",
-    "Home.md",
-    "README.md"
+    "UPDATES/v1",
+    "UPDATES",
+    "Home.md"
   ]
 }

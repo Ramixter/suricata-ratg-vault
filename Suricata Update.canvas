@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"7a977d82c2926310","x":-1480,"y":-740,"width":400,"height":400,"type":"file","file":"Suricata.yaml v.1.1.0.md"},
-		{"id":"404289dc330cd054","type":"file","file":"Suricata.yaml v.1.0.0.md","x":-2300,"y":-440,"width":400,"height":400},
-		{"id":"fde280298c6917c9","x":-1800,"y":-540,"width":250,"height":60,"type":"text","text":"Se añadió el cambio con los estados"}
+		{"id":"7a977d82c2926310","type":"file","file":"UPDATES/v1/FILES/suricata.yaml v1.1.0.md","x":-1480,"y":-740,"width":400,"height":400},
+		{"id":"fde280298c6917c9","type":"text","text":"Se añadió el cambio con los estados","x":-1860,"y":-520,"width":250,"height":60},
+		{"id":"404289dc330cd054","type":"file","file":"UPDATES/v1/FILES/ubuntupod.yaml v1.0.0.md","x":-2340,"y":-400,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"87c38a49536a97d7","fromNode":"404289dc330cd054","fromSide":"right","toNode":"fde280298c6917c9","toSide":"left"},
-		{"id":"914aa754df18040f","fromNode":"fde280298c6917c9","fromSide":"right","toNode":"7a977d82c2926310","toSide":"left"}
+		{"id":"914aa754df18040f","fromNode":"fde280298c6917c9","fromSide":"right","toNode":"7a977d82c2926310","toSide":"left"},
+		{"id":"ffa598e870ecb7fa","fromNode":"404289dc330cd054","fromSide":"top","toNode":"fde280298c6917c9","toSide":"left"}
 	]
 }

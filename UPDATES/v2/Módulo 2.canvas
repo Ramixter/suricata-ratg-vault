@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"cc0dfa54b152d4c8","type":"group","x":-3440,"y":-900,"width":1280,"height":440,"color":"5","label":"Opción 1"},
+		{"id":"18e9fc3a014b766a","x":-2080,"y":-900,"width":1280,"height":440,"color":"4","type":"group","label":"Opción 2"},
+		{"id":"ac17aadbf1957d91","type":"file","file":"UPDATES/v2/FILES/suricata-daemonset.yaml v.1.0.0.md","x":-3420,"y":-880,"width":400,"height":400,"color":"3"},
+		{"id":"d08eed6036ba8a95","type":"file","file":"UPDATES/v2/FILES/suricata-rules.yaml.md","x":-3000,"y":-880,"width":400,"height":400},
+		{"id":"b9643c0752785b71","type":"file","file":"UPDATES/v2/FILES/suricata-suricata.yaml v1.0.0.md","x":-2580,"y":-880,"width":400,"height":400},
+		{"id":"38e73d153e78b533","x":-2060,"y":-880,"width":400,"height":400,"color":"3","type":"file","file":"UPDATES/v2/FILES/suricata-daemonset.yaml v.1.0.0.md"},
+		{"id":"04836d46fd1e5926","x":-1640,"y":-880,"width":400,"height":400,"type":"file","file":"UPDATES/v2/FILES/suricata.rules v.1.0.0.md"},
+		{"id":"e10ad6fa32eaf850","x":-1220,"y":-880,"width":400,"height":400,"type":"file","file":"UPDATES/v2/FILES/suricata.yaml v.1.0.0.md"},
+		{"id":"7c3f13b079ef73fc","type":"text","text":"```bash\nkubectl create -f suricata-suricata.yaml\nkubectl create -f suricata-rules.yaml\nkubectl create -f suricata-daemonset.yaml\n```","x":-3085,"y":-348,"width":570,"height":122,"color":"5"},
+		{"id":"31392cd79ef1f769","type":"text","text":"```bash\nkubectl create configmap suricata-config --from-file=suricata.yaml=suricata.yaml\nkubectl create configmap suricata-rules --from-file=suricata.rules\nkubectl create -f suricata-daemonset.yaml\n```","x":-1860,"y":-348,"width":845,"height":122,"color":"5"}
+	],
+	"edges":[
+		{"id":"b3bee67729065095","fromNode":"ac17aadbf1957d91","fromSide":"bottom","toNode":"7c3f13b079ef73fc","toSide":"top"},
+		{"id":"ad83dc97ae70b0e9","fromNode":"d08eed6036ba8a95","fromSide":"bottom","toNode":"7c3f13b079ef73fc","toSide":"top"},
+		{"id":"eb6b80dda573c14d","fromNode":"b9643c0752785b71","fromSide":"bottom","toNode":"7c3f13b079ef73fc","toSide":"top"},
+		{"id":"2fcb08feb57e35b5","fromNode":"38e73d153e78b533","fromSide":"bottom","toNode":"31392cd79ef1f769","toSide":"top"},
+		{"id":"af88074e1501ddb3","fromNode":"04836d46fd1e5926","fromSide":"bottom","toNode":"31392cd79ef1f769","toSide":"top"},
+		{"id":"9cdc2dd0733d220e","fromNode":"e10ad6fa32eaf850","fromSide":"bottom","toNode":"31392cd79ef1f769","toSide":"top"}
+	]
+}

@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
-  "livePreview": false
+  "livePreview": false,
+  "attachmentFolderPath": "z_Attachments/extra"
 }

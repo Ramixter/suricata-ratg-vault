@@ -1,0 +1,14 @@
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: suricata-service
+spec:
+  selector:
+    app: suricata
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: NodePort
+```
