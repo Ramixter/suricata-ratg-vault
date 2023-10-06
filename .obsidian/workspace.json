@@ -4,31 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ef4c216e436b6f29",
+        "id": "30f57e8442308655",
         "type": "tabs",
         "children": [
           {
-            "id": "1b959c960f79a543",
+            "id": "54b35a367d078205",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "05c438113f7ce308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "Suricata Update.canvas",
+                "viewState": {
+                  "x": -1280,
+                  "y": -340,
+                  "zoom": 0
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Suricata.yaml v.1.0.0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Suricata.yaml v.1.0.0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Suricata.yaml v.1.0.0.md"
               }
             }
           }
@@ -152,12 +146,18 @@
       "canvas:Crear nuevo canvas": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "05c438113f7ce308",
+  "active": "54b35a367d078205",
   "lastOpenFiles": [
-    "README.md",
-    "Home.md"
+    "Suricata.yaml v.1.1.0.md",
+    "Suricata Update.canvas",
+    "Suricata.yaml v.1.0.0.md",
+    "Home.md",
+    "README.md"
   ]
 }

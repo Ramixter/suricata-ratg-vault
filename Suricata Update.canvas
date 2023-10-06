@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"7a977d82c2926310","x":-1480,"y":-740,"width":400,"height":400,"type":"file","file":"Suricata.yaml v.1.1.0.md"},
+		{"id":"404289dc330cd054","type":"file","file":"Suricata.yaml v.1.0.0.md","x":-2300,"y":-440,"width":400,"height":400},
+		{"id":"fde280298c6917c9","x":-1800,"y":-540,"width":250,"height":60,"type":"text","text":"Se añadió el cambio con los estados"}
+	],
+	"edges":[
+		{"id":"87c38a49536a97d7","fromNode":"404289dc330cd054","fromSide":"right","toNode":"fde280298c6917c9","toSide":"left"},
+		{"id":"914aa754df18040f","fromNode":"fde280298c6917c9","fromSide":"right","toNode":"7a977d82c2926310","toSide":"left"}
+	]
+}
